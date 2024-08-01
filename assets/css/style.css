@@ -86,3 +86,10 @@ body {
 .container.active .qr-code {
   opacity: 1;
 }
+
+@media (max-width: 360px) {
+  .container {
+    height: 340px;
+    width: 90%;
+  }
+}
